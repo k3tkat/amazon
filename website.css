@@ -1,0 +1,422 @@
+*{
+    margin:0px;
+    font-family:Arial;
+    box-sizing: border-box;
+    justify-content:space-between;
+    
+    
+    
+    
+}
+
+.navbar{
+    height:99px;
+    width: 100%;
+    color:white;
+    background-color:#0f1111;
+    display: flex;
+     
+}
+
+.navlogo{
+    height: 70px;
+    width: 150px;
+    margin-top: 27px;
+    margin-left: 20px;  
+}
+
+.logo{  
+    background-image: url(amazin.png);
+    background-size:101.5%;
+    height: 47px;
+    width: 150px;
+}
+
+.border{
+    border: 2px solid transparent ;
+}
+
+.border:hover{
+    border: 2px solid transparent;
+}
+
+.deliverto{
+    height: 100px;
+    font-size: 0.7rem;
+    width: 200px;
+    align-items: center; 
+    padding-bottom: 1rem; 
+    border: transparent;
+     
+}
+
+.deliverto:hover{
+    border:1px solid;
+    width: 800px; 
+    background-color: transparent;
+    height:5rem;
+    
+}
+
+
+.india{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left:0.5rem;
+
+}
+
+.location{
+    width: 20px;
+    height:20px;
+    border-radius: 2px solid transparent;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.location:hover{
+    border:solid transparent 2px;
+    
+}
+
+.nav-search{
+    width:42rem;
+    height: 60px;
+    border:solid #0f1111 2px;
+    margin-top:20px;
+    margin-left: 30px;
+    border-radius: 0.5rem;
+    background-color:#0f1111; 
+}
+
+#all{ 
+    align-items:center;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius:7px ;
+    
+    
+}
+
+div{
+    display: flex;
+
+}
+#nav-search2{
+    width:42rem;
+    
+}
+button{
+    height:3.6rem;
+    width: 3.6rem;
+    align-items: center;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius:7px ;
+    background-color:#febd68; 
+}
+
+#EN{
+    height:4rem;
+    text-align: center;
+    margin-top: 1rem;
+    background-color:white;
+    border: #0f1111;
+    border-radius: 4px;
+}
+
+#language0{
+    color: beige;
+ }
+
+#language1{
+   background-color: beige;
+}
+#language2{
+    background-color: beige;
+ }
+ #language3{
+    background-color: beige;
+ }
+ #language4{
+    background-color: beige;
+ }
+ #language5{
+    background-color: beige;
+ }
+
+ .hello{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:start;
+    height:5rem;
+    width:4rem;
+    border: 1px solid transparent;
+    font-size:0.6rem;
+    margin:1rem;
+    padding-bottom: 8px;
+ }
+ .hello :hover{
+     border: 1px solid transparent;
+
+ }
+
+ .list{
+    font-size: 1rem;
+    width:7rem;
+ }
+
+ #hello{
+    margin-left: 2.7rem;
+    font-size: 0.7rem;
+
+ }
+
+ .cart{
+    font-size:2.2rem;
+    padding-top: 2rem;
+ }
+
+ .cart2{
+    font-size: 1rem;
+    padding-top: 1.1rem;
+    margin-right: 2rem;
+ }
+ .cart:hover{
+      border:1px solid transparent;
+      width:100px;
+      padding-top:1.1rem ;
+      height:5rem;
+ }
+
+ /* navbar 2nd making */
+ 
+
+
+ .navbar2nd{
+    width:300p;
+    height: 3rem;
+    background-color: #232f3e;
+    text-align: center;
+    justify-content:space-evenly;
+    align-items: center;
+    
+ }
+
+ #all2{
+    color:white;
+    background-color: transparent;
+    
+ }
+
+ #all:hover{
+    border:1px solid transparent;
+ }
+
+ #fresh{
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+}
+
+#same{
+    background-color:white;
+    justify-content: space-evenly;
+}
+
+.class1{
+    color:white;
+    font-size: 0.9rem;
+}
+
+#prime2{
+    background-color: transparent;
+    color: white;
+}
+
+.class1:hover{
+    border:1px solid transparent;
+}
+
+/* making hero section */
+
+.herosection{
+    max-width: 100%;
+    max-height: 100%;
+    background-size:contain;
+    
+}
+
+#img{
+    width:1349px ;
+    max-height:100%;
+}
+
+
+.heromessage{
+    background-color: white;
+    height:2rem;
+    width:1200px;
+    text-align:center;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 16rem;
+    justify-content: center;
+    padding: 20px ;
+    position: relative;
+    top:-500px
+    
+}
+
+
+/* making boxes */
+
+.merge{
+    position:relative;
+    top: -400px;
+    background-color: #4A249D;
+}
+
+.shopsection{
+    justify-content:space-evenly;
+    
+    
+    
+}
+
+.box1{
+    border:2px solid black;
+    height:21rem;
+    width:16rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 19px solid white;
+}
+
+.boximage1{
+    background-image:url("pc.jpg");
+    height:13rem;
+    width:13.7rem;
+    display: flex;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+
+.box2{
+    border:2px solid black;
+    height:21rem;
+    width:16rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 19px solid white;
+    margin-right: 60px;
+}
+
+.boximage2{
+    background-image:url("toy.jpg");
+    height:13rem;
+    width:13.7rem;
+    display: flex;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+
+.box3{
+    border:2px solid black;
+    height:21rem;
+    width:16rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 19px solid white;
+    margin-right: 60px;
+}
+
+.boximage3{
+    background-image:url("watch.jpg");
+    height:13rem;
+    width:13.7rem;
+    display: flex;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+
+.box4{
+    border:2px solid black;
+    height:21rem;
+    width:16rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 19px solid white;
+}
+
+.boximage4{
+    background-image:url("lamp.jpg");
+    height:13rem;
+    width:13.7rem;
+    display: flex;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+
+
+
+/* makhing 4 boxes in 1 box */
+
+.equal{
+    display: flex;
+    justify-content:center ;
+    background-color: #4A249D;
+    width:1360px;
+    height:600px;
+    position: relative;
+    top: -400px;
+    left:-10px;  
+    
+
+}
+
+.card-product-container{
+    height:420px;
+    
+}
+
+.card-product{
+
+align-items: start;
+flex-direction: column;
+width: 300px;
+height:350px;
+left: 30px;
+background-color:white;
+margin-left: 30px;
+margin-top: 50px;
+border :white solid 3px;
+
+}
+.card-inside{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:10px;
+    border:white solid 20px;  
+}
+
+.card-inside img{
+    max-width: 100%;
+    height: 120px;
+    display: grid;
+    
+    
+}
+
+
+
+
+
